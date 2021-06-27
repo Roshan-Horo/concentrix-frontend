@@ -4,7 +4,6 @@ import { Line,Bar,Pie } from 'react-chartjs-2';
 
 
 const Analytics = () => {
-    let entry = [];
     const [fetching,setFetching] = useState([])
     const [currentData,setCurrentData] = useState({})
     const [col,setCol] = useState(null)
